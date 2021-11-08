@@ -1,0 +1,103 @@
+﻿html {
+    background-color: #e7feff;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #e7feff;
+}
+
+.login-page-statistics {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.login-social-block {
+    background-color: #c6fafd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.user-greeting {
+    font-size: 1.5rem;
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.navigation-text {
+    font-size: 1.5rem;
+}
+
+.navigation-text:hover {
+    text-decoration: none;
+}
+
+.update-message {
+    font-size: 1rem;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.update-message:hover {
+    font-size: 1rem;
+    color: #494949;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.update-message:visited {
+    font-size: 1rem;
+    color: #494949;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.message-info:hover {
+    font-size: 1rem;
+    color: #3b3b3b;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.message-info:visited {
+    font-size: 1rem;
+    color: #767676;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.message-info {
+    font-size: 1rem;
+    color: #a1a1a1;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.message-info:hover {
+    font-size: 1rem;
+    color: #767676;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.message-info:visited {
+    font-size: 1rem;
+    color: #767676;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.btn-send {
+    font-size: 1.5rem;
+}
+
+.last-message {
+    font-size: 1.3rem;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}

@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container-fluid">
+    <div class="row align-content-center mt-4">
+        <div class="col-4 align-middle text-left">
+            <p class="align-content-center user-greeting">Hello, @ViewData["UserName"]!</p>
+        </div>
+        <div class="col-8 align-middle text-right">
+            <a class="align-content-center navigation-text" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+        </div>
+    </div>
+    <hr />
+    <div class="row justify-content-center mt-4">
+        <form class="col-12" method="post" role="form">
+            <div class="row justify-content-center mb-3">
+                <h4 class="display-4">Choose your button!</h4>
+            </div>
+            <div class="row mb-3">
+                <a class="update-message" asp-area="" asp-controller="Home" asp-action="Index"><span class="last-message">Last message: @ViewData["LastMessage"] - </span><span class="message-info">@ViewData["LastMessageInfo"]</span></a>
+            </div>
+            <div class="row justify-content-between mb-4">
+                <div class="form-group col-5 mr-2">
+                    <div class="row">
+                        <input class="btn btn-danger btn-block btn-send" type="submit" name="SendSis" asp-area="" asp-controller="Home" asp-action="SendSis" value="Sis!" />
+                    </div>
+                </div>
+                <div class="form-group col-5 ml-2">
+                    <div class="row">
+                        <input class="btn btn-success btn-block btn-send" type="submit" name="SendBro" asp-area="" asp-controller="Home" asp-action="SendBro" value="Bro!" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+    

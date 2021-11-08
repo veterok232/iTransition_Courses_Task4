@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Log in";
+    
+}
+
+<div class="container">
+    <div class="row align-items-center justify-content-center">
+        <div class="col align-self-center mt-2 login-page-statistics">
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th colspan="2">Statistics</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Bro! : @ViewData["BroCount"]</th>
+                        <th>Sis! : @ViewData["SisCount"]</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row align-items-center justify-content-center login-social-block mt-4">
+        <form method="post" class="form-horizontal" role="form">
+            <div class="container">
+                <div class="row justify-content-center mb-3">
+                    <h4 class="display-4">Log in</h4>
+                </div>
+                <div class="row justify-content-center mb-4">
+                    <div class="col align-self-start">
+                        <button class="btn btn-lg btn-social-icon btn-google" type="submit" asp-area="" asp-controller="Account" asp-action="GoogleLogin" value="google">
+                            <i class="fa fa-google fa-5x"></i>
+                        </button>
+                    </div>
+                    <div class="col align-self-start">
+                        <button class="btn btn-lg btn-social-icon btn-facebook" type="submit" asp-area="" asp-controller="Account" asp-action="FacebookLogin" value="facebook">
+                            <i class="fa fa-facebook fa-5x"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
